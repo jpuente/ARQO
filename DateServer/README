@@ -1,0 +1,20 @@
+Ejemplo de servidor de fecha en Java
+------------------------------------
+jpuente@dit.upm.es 20111014
+
+1. Compilar los fuentes:
+
+$ javac DateServer.java
+$ javac DateClient.java
+
+2. Ejecutar el servidor en segundo plano
+
+$ java DateServer &
+
+3. Ejecutar el cliente cuantas veces se desee
+
+$ java DateClient
+
+4. Para terminar, detener el servidor:
+
+$ kill %1
